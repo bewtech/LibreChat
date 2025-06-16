@@ -88,6 +88,8 @@ monospace.json
 .idea
 *.iml
 *.pem
+*.swp
+*.bk
 config.local.ts
 **/storageState.json
 junit.xml
