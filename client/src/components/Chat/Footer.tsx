@@ -37,9 +37,9 @@ export default function Footer({ className }: { className?: string }) {
   const mainContentParts = (
     typeof config?.customFooter === 'string'
       ? config.customFooter
-      : '[LibreChat ' +
+      : '[OpiaChat ' +
         Constants.VERSION +
-        '](https://librechat.ai) - ' +
+        '](https://opiamarketing.cl) - ' +
         localize('com_ui_latest_footer')
   ).split('|');
 
